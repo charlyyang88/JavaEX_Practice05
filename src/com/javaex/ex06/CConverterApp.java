@@ -8,11 +8,11 @@ public class CConverterApp {
         double dollar;
         double won;
         
-        CConverter.setRate(1118.70);
+//        CConverter.setRate(1118.70);
+        CConverter.setRate(1341.30); // 240326 고시환율
         
         //100만원을 달러로 출력하기
-        won =1_000_000;
-        dollar = CConverter.toDoller(won);
+        dollar = CConverter.toDoller(1_000_000);
         System.out.println("백만원은 " + dollar + "달러 입니다.");
         
         //100달려를 원으로 출력하기

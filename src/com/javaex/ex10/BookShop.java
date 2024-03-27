@@ -3,7 +3,9 @@ package com.javaex.ex10;
 import java.util.Scanner;
 
 public class BookShop {
-
+//	문제] com.javaex.ex10 패키지
+//	주어진 BookShop.java 를 실행했을 때 다음과 같은 실행결과가 나타나도록 아래의 문제설명을 참고하여
+//	Book.java 를 작성하고 BookShop.java 를 완성하세요
     public static void main(String[] args) {
         Book[] books = new Book[10];
 
